@@ -1,0 +1,110 @@
+[
+  {
+    "playerName": "Shakib Al Hasan",
+    "playerImage":"https://api.bdcrictime.com/players/348.png",
+   "origin": "Bangladesh",
+    "playerType": "All-Rounder",
+    "bowlingStyle": "Left-arm orthodox",
+    "battingStyle": "Left-handed",
+    "price": 300
+  },
+  {
+    "playerName": "Litton Das",
+    "playerImage":"https://api.bdcrictime.com/players/37360.png",
+    "origin": "Bangladesh",
+    "playerType": "Wicket-Keeper Batsman",
+    "bowlingStyle": "N/A",
+    "battingStyle": "Right-handed",
+    "price": 250
+  },
+  {
+    "playerName": "Mushfiqur Rahim",
+    "playerImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY1kw4cwsC47FnZZrKefJbsrqBNawWhmGN3EKuygU1uTgVsFZUfeDhFhIJ&s=10",
+    "origin": "Bangladesh",
+    "playerType": "Wicket-Keeper Batsman",
+    "bowlingStyle": "N/A",
+    "battingStyle": "Right-handed",
+    "price": 240
+  },
+  {
+    "playerName": "Mustafizur Rahman",
+    "playerImage":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoQQR-ypfnZRaLuhnb5eh3nPc_i8TUwZEbl5wSAacF_n1ceq84OvWvQXjvGN6TJT-56y8TGw0PPUuZZXf1Q7IKN0P5QMZWQjDGxFOccZc&s",
+    "origin": "Bangladesh",
+    "playerType": "Bowler",
+    "bowlingStyle": "Left-arm fast-medium",
+    "battingStyle": "Left-handed",
+    "price": 220
+  },
+  {
+    "playerName": "Taskin Ahmed",
+    "playerImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuseGMq_tZpEz8HcNLMghxPfCSjfohbtGF22uK5PZpfDnPgcrtqyZrzjSmEpnm1mRa-BwCcu82if_4k0wZ6t99Bx2g5IaKaCQJHOABQPA&s",
+    "origin": "Bangladesh",
+    "playerType": "Bowler",
+    "bowlingStyle": "Right-arm fast",
+    "battingStyle": "Left-handed",
+    "price": 200
+  },
+  {
+    "playerName": "Mehidy Hasan Miraz",
+    "playerImage":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbDR1JUyiznuL4mmbX34OhXVIgvYTIZ-k6JEg5V3FskQ&s=10",
+    "origin": "Bangladesh",
+    "playerType": "All-Rounder",
+    "bowlingStyle": "Right-arm off-break",
+    "battingStyle": "Right-handed",
+    "price": 230
+  },
+  {
+    "playerName": "Najmul Hossain Shanto",
+    "playerImage": "https://api.bdcrictime.com/players/1017.png",
+    "origin": "Bangladesh",
+    "playerType": "Batsman",
+    "bowlingStyle": "N/A",
+    "battingStyle": "Left-handed",
+    "price": 190
+  },
+  {
+    "playerName": "Towhid Hridoy",
+    "playerImage": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg-webp/prd/assets/players/6122/67719.png",
+    "origin": "Bangladesh",
+    "playerType": "Batsman",
+    "bowlingStyle": "Right-arm off-break",
+    "battingStyle": "Right-handed",
+    "price": 180
+  },
+  {
+    "playerName": "Rishad Hossain",
+    "playerImage": "https://pbs.twimg.com/profile_images/1909242877558824960/C-2KXnNs_400x400.jpg",
+    "origin": "Bangladesh",
+    "playerType": "All-Rounder",
+    "bowlingStyle": "Right-arm leg-break",
+    "battingStyle": "Right-handed",
+    "price": 170
+  },
+  {
+    "playerName": "Tanzid Hasan",
+    "playerImage": "https://api.bdcrictime.com/players/63742.png",
+    "origin": "Bangladesh",
+    "playerType": "Batsman",
+    "bowlingStyle": "N/A",
+    "battingStyle": "Left-handed",
+    "price": 160
+  },
+  {
+    "playerName": "Jaker Ali",
+    "playerImage": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg-webp/prd/assets/players/8322/65411.png",
+    "origin": "Bangladesh",
+    "playerType": "Wicket-Keeper Batsman",
+    "bowlingStyle": "N/A",
+    "battingStyle": "Right-handed",
+    "price": 150
+  },
+  {
+    "playerName": "Shoriful Islam",
+    "playerImage": "https://api.bdcrictime.com/players/63752.png",
+    "origin": "Bangladesh",
+    "playerType": "Bowler",
+    "bowlingStyle": "Left-arm fast-medium",
+    "battingStyle": "Left-handed",
+    "price": 180
+  }
+]
