@@ -83,53 +83,54 @@ export function PlayerCard({
         </h2>
 
         <div className="mt-2 flex items-center gap-2 text-sm text-gray-500">
-      
-       {player.origin === "Bangladesh" ? (
+          {player.origin === "Bangladesh" ? (
             <img
-            className="h-5 w-7.5"
-            src="https://cdn.britannica.com/67/6267-050-8A26DFEE/Flag-Bangladesh.jpg"
-            alt="flag"
-          />
+              className="h-5 w-7.5"
+              src="https://cdn.britannica.com/67/6267-050-8A26DFEE/Flag-Bangladesh.jpg"
+              alt="flag"
+            />
           ) : (
-            <span aria-label="World" role="img">🌍</span>
+            <span aria-label="World" role="img">
+              🌍
+            </span>
           )}
         </div>
- 
-        <div className="mt-5 grid grid-cols-2 gap-3"> 
-          <div className="rounded-xl bg-gray-50 p-3"> 
-            <p className="text-xs text-gray-400">Batting</p> 
-            <p className="mt-1 text-sm font-semibold text-gray-800"> 
-              {player.battingStyle} 
-            </p> 
-          </div> 
- 
-          <div className="rounded-xl bg-gray-50 p-3"> 
-            <p className="text-xs text-gray-400">Bowling</p> 
-            <p className="mt-1 text-sm font-semibold text-gray-800"> 
-              {player.bowlingStyle} 
-            </p> 
-          </div> 
-        </div> 
- 
-        <div className="my-5 border-t border-gray-100"></div> 
- 
-        <div className="flex items-center justify-between"> 
-          <div> 
-            <p className="text-xs text-gray-400">Player Price</p> 
-            <p className="text-lg font-bold text-gray-900"> 
-              {player.price} Coins 
-            </p> 
-          </div> 
- 
-          <button 
-            onClick={handleCoin} 
-            className="rounded-lg bg-yellow-400 px-5 py-2.5 text-sm font-semibold text-black shadow-sm transition-all duration-200 hover:bg-yellow-500 hover:shadow-md disabled:cursor-not-allowed disabled:opacity-70" 
-            disabled={isSelected || isPlayerSelected} 
-          > 
-            {isSelected || isPlayerSelected ? "Selected" : "Choose Player"} 
-          </button> 
-        </div> 
-      </div> 
-    </div> 
-  ); 
-} 
+
+        <div className="mt-5 grid grid-cols-2 gap-3">
+          <div className="rounded-xl bg-gray-50 p-3">
+            <p className="text-xs text-gray-400">Batting</p>
+            <p className="mt-1 text-sm font-semibold text-gray-800">
+              {player.battingStyle}
+            </p>
+          </div>
+
+          <div className="rounded-xl bg-gray-50 p-3">
+            <p className="text-xs text-gray-400">Bowling</p>
+            <p className="mt-1 text-sm font-semibold text-gray-800">
+              {player.bowlingStyle}
+            </p>
+          </div>
+        </div>
+
+        <div className="my-5 border-t border-gray-100"></div>
+
+        <div className="flex items-center justify-between">
+          <div>
+            <p className="text-xs text-gray-400">Player Price</p>
+            <p className="text-lg font-bold text-gray-900">
+              {player.price} Coins
+            </p>
+          </div>
+
+          <button
+            onClick={handleCoin}
+            className="rounded-lg bg-yellow-400 px-5 py-2.5 text-sm font-semibold text-black shadow-sm transition-all duration-200 hover:bg-yellow-500 hover:shadow-md disabled:cursor-not-allowed disabled:opacity-70"
+            disabled={isSelected || isPlayerSelected}
+          >
+            {isSelected || isPlayerSelected ? "Selected" : "Choose Player"}
+          </button>
+        </div>
+      </div>
+    </div>
+  );
+}
