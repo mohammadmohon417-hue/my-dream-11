@@ -15,9 +15,17 @@ type PlayerCardProps = {
   player: Player;
   coin: number;
   setCoin: Dispatch<SetStateAction<number>>;
+  selectedPlayer:object[];
+  setSelectedPlayer: Dispatch<SetStateAction<object[]>>
 };
 
-export function PlayerCard({ player, coin, setCoin }: PlayerCardProps) {
+export function PlayerCard({
+  player,
+  coin,
+  setCoin,
+  selectedPlayer,
+  setSelectedPlayer,
+}: PlayerCardProps) {
   const [isSelected, setIsSelected] = useState(false);
 
   const handleCoin = () => {
@@ -29,11 +37,21 @@ export function PlayerCard({ player, coin, setCoin }: PlayerCardProps) {
     if (newPrice >= 0) {
       setIsSelected(true);
       setCoin(newPrice);
+      setSelectedPlayer((prevSelectedPlayers) => [
+        ...prevSelectedPlayers,
+        { ...player },
+      ]);
       toast.success(`${player.playerName ?? "Player"} purchased successfully`);
       return;
     }
 
     toast.error("Coin is not enough");
+
+// selected player
+setSelectedPlayer([...selectedPlayer,player])
+
+
+
   };
 
   return (
