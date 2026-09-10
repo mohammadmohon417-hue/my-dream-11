@@ -18,7 +18,7 @@ const playersPromise = fetch("/players.json")
   });
 
 function App() {
-  const [coin, setCoin] = useState(5000);
+  const [coin, setCoin] = useState(2000);
 
   return (
     <>
