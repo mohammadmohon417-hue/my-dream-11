@@ -1,19 +1,9 @@
 import type { Dispatch, SetStateAction } from "react";
-
-type Player = {
-  playerName?: string;
-  playerType?: string;
-  price?: number | string;
-  playerImage?: string;
-  origin?: string;
-  battingStyle?: string;
-  bowlingStyle?: string;
-};
+import type { Player } from "../../type/players";
 
 type SelectedPlayersProps = {
   selectedPlayer: Player[];
   setSelectedPlayer: Dispatch<SetStateAction<Player[]>>;
-  coin: number;
   setCoin: Dispatch<SetStateAction<number>>;
 };
 
@@ -24,18 +14,14 @@ export function SelectedPlayers({
 }: SelectedPlayersProps) {
 
   const handleRemovePlayer = (player: Player) => {
-
-    const restplayer = selectedPlayer.filter(
-      (selected) =>
-        selected.playerName !== player.playerName
+    // Remove player from selected list
+    setSelectedPlayer((previousPlayers) =>
+      previousPlayers.filter((selected) => selected !== player)
     );
 
-    setSelectedPlayer(restplayer);
-
-    // Return the player's coins
-    setCoin(
-      (previousCoin) =>
-        previousCoin + Number(player.price)
+    // Return player's coins
+    setCoin((previousCoin) =>
+      previousCoin + player.price
     );
   };
 
@@ -65,7 +51,7 @@ export function SelectedPlayers({
         selectedPlayer.map((player, index) => (
 
           <div
-            key={player.playerName || index}
+            key={`${player.playerName}-${index}`}
             className="flex items-center justify-between rounded-2xl border border-gray-200 bg-white p-4 shadow-sm transition hover:shadow-md"
           >
 
@@ -77,7 +63,7 @@ export function SelectedPlayers({
 
                 <img
                   src={player.playerImage}
-                  alt={player.playerName || "Player"}
+                  alt={player.playerName}
                   className="h-full w-full object-contain"
                 />
 
@@ -86,7 +72,7 @@ export function SelectedPlayers({
               <div>
 
                 <h3 className="text-base font-bold text-gray-900">
-                  {player.playerName || "Player Name"}
+                  {player.playerName}
                 </h3>
 
                 <p className="mt-1 text-sm text-gray-500">
@@ -110,9 +96,7 @@ export function SelectedPlayers({
               </span>
 
               <button
-                onClick={() =>
-                  handleRemovePlayer(player)
-                }
+                onClick={() => handleRemovePlayer(player)}
                 className="rounded-lg px-3 py-2 text-sm font-medium text-red-500 transition hover:bg-red-50"
               >
                 Remove

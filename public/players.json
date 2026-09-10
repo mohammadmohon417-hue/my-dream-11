@@ -1,16 +1,18 @@
 [
   {
+    "id": 1,
     "playerName": "Shakib Al Hasan",
-    "playerImage":"https://api.bdcrictime.com/players/348.png",
-   "origin": "Bangladesh",
+    "playerImage": "https://api.bdcrictime.com/players/348.png",
+    "origin": "Bangladesh",
     "playerType": "All-Rounder",
     "bowlingStyle": "Left-arm orthodox",
     "battingStyle": "Left-handed",
     "price": 300
   },
   {
+    "id": 2,
     "playerName": "Litton Das",
-    "playerImage":"https://api.bdcrictime.com/players/37360.png",
+    "playerImage": "https://api.bdcrictime.com/players/37360.png",
     "origin": "Bangladesh",
     "playerType": "Wicket-Keeper Batsman",
     "bowlingStyle": "N/A",
@@ -18,6 +20,7 @@
     "price": 250
   },
   {
+    "id": 3,
     "playerName": "Mushfiqur Rahim",
     "playerImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY1kw4cwsC47FnZZrKefJbsrqBNawWhmGN3EKuygU1uTgVsFZUfeDhFhIJ&s=10",
     "origin": "Bangladesh",
@@ -27,8 +30,9 @@
     "price": 240
   },
   {
+    "id": 4,
     "playerName": "Mustafizur Rahman",
-    "playerImage":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoQQR-ypfnZRaLuhnb5eh3nPc_i8TUwZEbl5wSAacF_n1ceq84OvWvQXjvGN6TJT-56y8TGw0PPUuZZXf1Q7IKN0P5QMZWQjDGxFOccZc&s",
+    "playerImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoQQR-ypfnZRaLuhnb5eh3nPc_i8TUwZEbl5wSAacF_n1ceq84OvWvQXjvGN6TJT-56y8TGw0PPUuZZXf1Q7IKN0P5QMZWQjDGxFOccZc&s",
     "origin": "Bangladesh",
     "playerType": "Bowler",
     "bowlingStyle": "Left-arm fast-medium",
@@ -36,17 +40,19 @@
     "price": 220
   },
   {
+    "id": 5,
     "playerName": "Taskin Ahmed",
     "playerImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuseGMq_tZpEz8HcNLMghxPfCSjfohbtGF22uK5PZpfDnPgcrtqyZrzjSmEpnm1mRa-BwCcu82if_4k0wZ6t99Bx2g5IaKaCQJHOABQPA&s",
     "origin": "Bangladesh",
     "playerType": "Bowler",
     "bowlingStyle": "Right-arm fast",
-    "battingStyle": "Left-handed",
+    "battingStyle": "Right-handed",
     "price": 200
   },
   {
+    "id": 6,
     "playerName": "Mehidy Hasan Miraz",
-    "playerImage":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbDR1JUyiznuL4mmbX34OhXVIgvYTIZ-k6JEg5V3FskQ&s=10",
+    "playerImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbDR1JUyiznuL4mmbX34OhXVIgvYTIZ-k6JEg5V3FskQ&s=10",
     "origin": "Bangladesh",
     "playerType": "All-Rounder",
     "bowlingStyle": "Right-arm off-break",
@@ -54,6 +60,7 @@
     "price": 230
   },
   {
+    "id": 7,
     "playerName": "Najmul Hossain Shanto",
     "playerImage": "https://api.bdcrictime.com/players/1017.png",
     "origin": "Bangladesh",
@@ -63,6 +70,7 @@
     "price": 190
   },
   {
+    "id": 8,
     "playerName": "Towhid Hridoy",
     "playerImage": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg-webp/prd/assets/players/6122/67719.png",
     "origin": "Bangladesh",
@@ -72,6 +80,7 @@
     "price": 180
   },
   {
+    "id": 9,
     "playerName": "Rishad Hossain",
     "playerImage": "https://pbs.twimg.com/profile_images/1909242877558824960/C-2KXnNs_400x400.jpg",
     "origin": "Bangladesh",
@@ -81,6 +90,7 @@
     "price": 170
   },
   {
+    "id": 10,
     "playerName": "Tanzid Hasan",
     "playerImage": "https://api.bdcrictime.com/players/63742.png",
     "origin": "Bangladesh",
@@ -90,6 +100,7 @@
     "price": 160
   },
   {
+    "id": 11,
     "playerName": "Jaker Ali",
     "playerImage": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg-webp/prd/assets/players/8322/65411.png",
     "origin": "Bangladesh",
@@ -99,6 +110,7 @@
     "price": 150
   },
   {
+    "id": 12,
     "playerName": "Shoriful Islam",
     "playerImage": "https://api.bdcrictime.com/players/63752.png",
     "origin": "Bangladesh",
@@ -106,5 +118,274 @@
     "bowlingStyle": "Left-arm fast-medium",
     "battingStyle": "Left-handed",
     "price": 180
+  },
+
+  {
+    "id": 13,
+    "playerName": "Virat Kohli",
+    "playerImage": "https://static-files.cricket-australia.pulselive.com/headshots/440/10917-camedia.png",
+    "origin": "India",
+    "playerType": "Batsman",
+    "bowlingStyle": "Right-arm medium",
+    "battingStyle": "Right-handed",
+    "price": 350
+  },
+  {
+    "id": 14,
+    "playerName": "Rohit Sharma",
+    "playerImage": "https://static-files.cricket-australia.pulselive.com/headshots/288/10915-camedia.png",
+    "origin": "India",
+    "playerType": "Batsman",
+    "bowlingStyle": "Right-arm off-break",
+    "battingStyle": "Right-handed",
+    "price": 330
+  },
+  {
+    "id": 15,
+    "playerName": "Jasprit Bumrah",
+    "playerImage": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg-webp/prd/assets/players/13203/63755.png",
+    "origin": "India",
+    "playerType": "Bowler",
+    "bowlingStyle": "Right-arm fast",
+    "battingStyle": "Right-handed",
+    "price": 340
+  },
+  {
+    "id": 16,
+    "playerName": "Rishabh Pant",
+    "playerImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjJn6TBblSFnS4LTG0Wn0816fVGZnu6k9Occr6kNCRtw&s",
+    "origin": "India",
+    "playerType": "Wicket-Keeper Batsman",
+    "bowlingStyle": "N/A",
+    "battingStyle": "Left-handed",
+    "price": 300
+  },
+
+  {
+    "id": 17,
+    "playerName": "Babar Azam",
+    "playerImage": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg-webp/prd/assets/players/13203/59429.png",
+    "origin": "Pakistan",
+    "playerType": "Batsman",
+    "bowlingStyle": "Right-arm off-break",
+    "battingStyle": "Right-handed",
+    "price": 330
+  },
+  {
+    "id": 18,
+    "playerName": "Shaheen Shah Afridi",
+    "playerImage": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg-webp/prd/assets/players/13203/66833.png",
+    "origin": "Pakistan",
+    "playerType": "Bowler",
+    "bowlingStyle": "Left-arm fast",
+    "battingStyle": "Left-handed",
+    "price": 320
+  },
+  {
+    "id": 19,
+    "playerName": "Shadab Khan",
+    "playerImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIo9hQdf9L4kgd44u94p5CJ5fonR6Dge9dIq47aAT9Bw&s=10",
+    "origin": "Pakistan",
+    "playerType": "All-Rounder",
+    "bowlingStyle": "Right-arm leg-break",
+    "battingStyle": "Right-handed",
+    "price": 280
+  },
+
+  {
+    "id": 20,
+    "playerName": "Steve Smith",
+    "playerImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_Z3OE2BSgg6YrNUiI73m_pFoiXN8AJxK_K-jgK1Tn4Q&s=10",
+    "origin": "Australia",
+    "playerType": "Batsman",
+    "bowlingStyle": "Right-arm leg-break",
+    "battingStyle": "Right-handed",
+    "price": 320
+  },
+  {
+    "id": 21,
+    "playerName": "Travis Head",
+    "playerImage": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg-webp/prd/assets/players/13203/62023.png",
+    "origin": "Australia",
+    "playerType": "Batsman",
+    "bowlingStyle": "Right-arm off-break",
+    "battingStyle": "Left-handed",
+    "price": 310
+  },
+  {
+    "id": 22,
+    "playerName": "Glenn Maxwell",
+    "playerImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_yr9NZ60be2_JxlVrUguYYxltuqMxnQOLOrtW7Z3fmQ&s",
+    "origin": "Australia",
+    "playerType": "All-Rounder",
+    "bowlingStyle": "Right-arm off-break",
+    "battingStyle": "Right-handed",
+    "price": 300
+  },
+  {
+    "id": 23,
+    "playerName": "Mitchell Starc",
+    "playerImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdQxVmccVYl3P3bAmi27mRWLc9gbm9ZKS8yq504Ivvfg&s=10",
+    "origin": "Australia",
+    "playerType": "Bowler",
+    "bowlingStyle": "Left-arm fast",
+    "battingStyle": "Left-handed",
+    "price": 330
+  },
+
+  {
+    "id": 24,
+    "playerName": "Joe Root",
+    "playerImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqm_-er1WK3KIrnjCb8k9Lx-U0yjAxqMb6UivqbH3zlQ&s=10",
+    "origin": "England",
+    "playerType": "Batsman",
+    "bowlingStyle": "Right-arm off-break",
+    "battingStyle": "Right-handed",
+    "price": 300
+  },
+  {
+    "id": 25,
+    "playerName": "Jos Buttler",
+    "playerImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLWZfmESwDrgD0a_JKmo2hOsTacOngx73sAq3agQSwig&s",
+    "origin": "England",
+    "playerType": "Wicket-Keeper Batsman",
+    "bowlingStyle": "N/A",
+    "battingStyle": "Right-handed",
+    "price": 320
+  },
+  {
+    "id": 26,
+    "playerName": "Ben Stokes",
+    "playerImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRC30NXcbVOaukOTxxgb5lU7RY418rTuMo_ZGbQiWhelw&s=10",
+    "origin": "England",
+    "playerType": "All-Rounder",
+    "bowlingStyle": "Left-arm fast-medium",
+    "battingStyle": "Left-handed",
+    "price": 330
+  },
+  {
+    "id": 27,
+    "playerName": "Jofra Archer",
+    "playerImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPO9JIrMYsr_giOl6DAulinklFKrtbanEVS1K1Me52Mg&s=10",
+    "origin": "England",
+    "playerType": "Bowler",
+    "bowlingStyle": "Right-arm fast",
+    "battingStyle": "Right-handed",
+    "price": 300
+  },
+
+  {
+    "id": 28,
+    "playerName": "Aiden Markram",
+    "playerImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2rYYeG-yZHNE94ddKSlPueau0dnO1wy7ukm5ND4zCcw&s=10",
+    "origin": "South Africa",
+    "playerType": "All-Rounder",
+    "bowlingStyle": "Right-arm off-break",
+    "battingStyle": "Right-handed",
+    "price": 290
+  },
+  {
+    "id": 29,
+    "playerName": "Kagiso Rabada",
+    "playerImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvWowIP8kslAduxzndnpuDErIYeGWG0x7ehdhJkdfZTQ&s=10",
+    "origin": "South Africa",
+    "playerType": "Bowler",
+    "bowlingStyle": "Right-arm fast",
+    "battingStyle": "Right-handed",
+    "price": 310
+  },
+  {
+    "id": 30,
+    "playerName": "David Miller",
+    "playerImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkO87-yrRQf7fSVDp11HPPGgMG-hkGaUD_ghzMqa03Aw&s=10",
+    "origin": "South Africa",
+    "playerType": "Batsman",
+    "bowlingStyle": "Right-arm off-break",
+    "battingStyle": "Left-handed",
+    "price": 280
+  },
+
+  {
+    "id": 31,
+    "playerName": "Kane Williamson",
+    "playerImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQy7Tj1AD--xrlhXj5hVJbgWpQE-vAia_ZyFb5MooVZ4w&s=10",
+    "origin": "New Zealand",
+    "playerType": "Batsman",
+    "bowlingStyle": "Right-arm off-break",
+    "battingStyle": "Right-handed",
+    "price": 300
+  },
+  {
+    "id": 32,
+    "playerName": "Mitchell Santner",
+    "playerImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQH99xU7Gkcps3SOxUAZBH96uZ-0py795Yeptfk2A4PYQ&s=10",
+    "origin": "New Zealand",
+    "playerType": "All-Rounder",
+    "bowlingStyle": "Left-arm orthodox",
+    "battingStyle": "Left-handed",
+    "price": 270
+  },
+
+  {
+    "id": 33,
+    "playerName": "Rashid Khan",
+    "playerImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnKWklMzzjFFLI_fKr0tbQf1vqarzn0YWDBfJImQhYSA&s=10",
+    "origin": "Afghanistan",
+    "playerType": "All-Rounder",
+    "bowlingStyle": "Right-arm leg-break",
+    "battingStyle": "Right-handed",
+    "price": 320
+  },
+  {
+    "id": 34,
+    "playerName": "Rahmanullah Gurbaz",
+    "playerImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjD1qROXzGx1aXcFTNx_pE1kuXp7wnQYcE0s609vg_NA&s=10",
+    "origin": "Afghanistan",
+    "playerType": "Wicket-Keeper Batsman",
+    "bowlingStyle": "N/A",
+    "battingStyle": "Right-handed",
+    "price": 280
+  },
+
+  {
+    "id": 35,
+    "playerName": "Wanindu Hasaranga",
+    "playerImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSG2AtuSKkNoOWUK3tNgdIkqLfmD1BAE8-NmE-D4TxptQ&s=10",
+    "origin": "Sri Lanka",
+    "playerType": "All-Rounder",
+    "bowlingStyle": "Right-arm leg-break",
+    "battingStyle": "Right-handed",
+    "price": 290
+  },
+  {
+    "id": 36,
+    "playerName": "Kusal Mendis",
+    "playerImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7yY4rh7pnMTPlOX_cRfC5C4N0FW21Z8avHu9WiJNKQQ&s=10",
+    "origin": "Sri Lanka",
+    "playerType": "Wicket-Keeper Batsman",
+    "bowlingStyle": "N/A",
+    "battingStyle": "Right-handed",
+    "price": 260
+  },
+
+  {
+    "id": 37,
+    "playerName": "Nicholas Pooran",
+    "playerImage": "https://images.icc-cricket.com/image/upload/t_player-headshot-portrait-lg-webp/prd/assets/players/6122/63726.png",
+    "origin": "West Indies",
+    "playerType": "Wicket-Keeper Batsman",
+    "bowlingStyle": "N/A",
+    "battingStyle": "Left-handed",
+    "price": 300
+  },
+  {
+    "id": 38,
+    "playerName": "Andre Russell",
+    "playerImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDkmvGhXmFBtQx8dyaZ4T0drpUOC4hMXGnOcXX1qHaew&s=10",
+    "origin": "West Indies",
+    "playerType": "All-Rounder",
+    "bowlingStyle": "Right-arm fast",
+    "battingStyle": "Right-handed",
+    "price": 310
   }
 ]
