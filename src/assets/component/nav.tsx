@@ -64,7 +64,9 @@ const Navbar = ({ coin }: { coin: number }) => {
                   BALANCE
                 </p>
 
-                <p className="text-sm font-bold text-gray-900">{coin}</p>
+                <p className="text-xs font-bold text-gray-900 sm:text-sm md:text-base">
+                  {coin}
+                </p>
               </div>
             </div>
 

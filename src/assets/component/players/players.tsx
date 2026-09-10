@@ -44,8 +44,10 @@ const Players = ({ playersPromise, coin, setCoin }: playersProps) => {
                 : "Selected Players"}
             </h1>
 
-            <span className="px-3 py-1 text-xs font-semibold bg-yellow-100 text-yellow-700 rounded-full">
-              {players.length} Players
+            <span className="rounded-full bg-yellow-100 px-3 py-1 text-xs font-semibold text-yellow-700">
+              {buttonType === "available"
+                ? `${players.length} Players`
+                : `${selectedPlayer.length} Selected`}
             </span>
           </div>
 
